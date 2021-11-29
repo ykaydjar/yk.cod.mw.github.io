@@ -107,3 +107,9 @@
     background-color: #fafafa;
     color: black;
 }
+.side__socials a {
+    transition: .5s;
+}
+.side__socials a:hover {
+    box-shadow: 0 0 15px black;
+}
