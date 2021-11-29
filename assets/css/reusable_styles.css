@@ -1,0 +1,17 @@
+/*=============== REUSABLE CSS CLASSES ===============*/
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.section__title {
+    font-size: var(--bigger-font-size);
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.section__title-gradient {
+    background: var(--text-gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: content-box; /* text in tutor */
+}

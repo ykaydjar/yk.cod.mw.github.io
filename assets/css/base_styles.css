@@ -1,0 +1,51 @@
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /*buggy sometimes during runtime, when anchor without name (e.g. just #) occurs in url - need to change value and reload*/
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-blend-mode: color-burn;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 20rem black; /*vignette*/
+    overflow: hidden;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+}
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

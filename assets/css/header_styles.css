@@ -1,0 +1,8 @@
+/*=============== HEADER ===============*/
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background: transparent;
+}
