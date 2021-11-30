@@ -113,3 +113,23 @@
 .side__socials a:hover {
     box-shadow: 0 0 15px black;
 }
+
+
+@media screen and (max-width: 767px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__description {
+        display: flex;
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .main__trailer {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
